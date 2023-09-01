@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Reset Basico de Css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Variables de Colores */
+
+:root {
+    /* Color de Fondo */
+    /* Para definir una variable vamos a usar -- */
+    --color-primary: #2a2929;
+    --color-secondary: rgb(99, 23, 99);
+    --color-text: white;
+
+}
+
+/* Estilos de Header */
+
+.container {
+    /* Espaciado de los elementos */
+    padding: 20px 160px;
+}
+
+.header {
+    background-color: var(--color-primary);
+    /* Con display flex vamos a ir dando posicion a nuestros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h3 {
+    color: var(--color-text);
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    /* El gap es un espacio entre los elementos */
+    gap: 50px;
+    /* Vamos a sacar el formato de lista */
+    list-style: none;
+}
+
+nav ul li a {
+    /* Vamos a sacarle formato a los enlaces */
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 18px;
+    transition: .4s ease-in-out;
+}
+
+/* Uso de pseudoclases */
+
+nav ul li a:hover {
+    color: green;
+}
