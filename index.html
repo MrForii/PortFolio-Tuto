@@ -35,7 +35,7 @@
     <!-- Home -->
     <section class="container home">
         <!-- Lado Izquierdo -->
-        <div>
+        <div class="left-side">
             <h1>Hola soy Rodrigo, y soy desarrollador FrontEnd</h1>
             <p>Soy desarrollador FrontEnd con 1 anio de experiencia, formado en HTML, CSS, javascript....</p>
             <!-- Vamos a incluir iconos -->
@@ -43,9 +43,70 @@
             <!-- En usage, vamos a encontrar la forma para conectar los iconos con nuestra pagina web -->
             <!-- En la seccion de Usage as a font -->
             <ul>
-                <li><a href="linkGithub">GitHub</a></li>
+                <!-- La propiedad target="_blank" es para que el acceso se habra en otra pestania -->
+                <!-- Github -->
+                <li><a href="linkGithub" target="_blank"><i class='bx bxl-github' ></i> GitHub</a></li>
+                <!-- LinkedIn -->
+                <li><a href="linkGithub" target="_blank"><i class='bx bxl-linkedin-square' ></i> LinkedIn</a></li>
+                <!-- Instagram -->
+                <li><a href="linkGithub" target="_blank"><i class='bx bxl-instagram' ></i> Instagram</a></li>
+                <!-- Curriculum -->
+                <li><a href="linkGithub" target="_blank"><i class='bx bx-link' ></i> Curriculum</a></li>
             </ul>
         </div>
+
+        <!-- Lado Derecho -->
+        <div class="rigth-side">
+            <img src="https://thumbs.dreamstime.com/b/retrato-de-un-joven-apuesto-y-sonriente-con-brazos-plegados-hombres-alegres-sonrientes-las-manos-cruzadas-aislados-en-estudio-172869765.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="container about">
+        <div class="left-side">
+            <img src="https://cdn.discordapp.com/attachments/849326018292744274/1148032661030457454/ddb92346-8309-4476-8102-01537e52b58b.png" alt="">
+        </div>
+        <div class="rigth-side">
+            <h3>Sobre mi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+        </div>
+    </section>
+
+    <section class="container skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>
+                <div class="card">
+                    <i class='bx bxl-html5' ></i>
+                    <span>HTML 5</span>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <i class='bx bxl-css3'></i>
+                    <span>CSS</span>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <i class='bx bxl-javascript' ></i>
+                    <span>JavaScript</span>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <i class='bx bxl-react' ></i>
+                    <span>React</span>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <i class='bx bxl-nodejs' ></i>
+                    <span>NodeJS</span>
+                </div>
+            </li>
+        </ul>
     </section>
 </body>
 </html>

@@ -61,3 +61,156 @@ nav ul li a {
 nav ul li a:hover {
     color: green;
 }
+
+/* Estilos Home */
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    display: flex;
+    /* Esto va a permitirnos manejar los divs que conteniamos */
+    
+}
+
+/* Lado izquierdo */
+.home .left-side {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Editamos el h1 */
+.home .left-side h1 {
+    font-size: 3rem;
+}
+
+/* Editamos el p */
+.home .left-side p {
+    font-size: 1.4rem;
+}
+
+/* Comenzamos a editar la lista con los accesos */
+.home .left-side ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.home .left-side ul li {
+    transition: .4s;
+}
+
+.home .left-side ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+
+.home .left-side ul li:hover {
+    transform: scale(1.2);
+}
+
+/* Lado derecho */
+.home .rigth-side {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.home .rigth-side img {
+    width: 70%;
+    height: max-content;
+    border-radius: 30px;
+}
+
+/* Estilos about */
+
+.about {
+    height: 70vh;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .left-side {
+    width: 30%;
+}
+
+.about .left-side img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about .rigth-side {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about .rigth-side h3 {
+    font-size: 2rem;
+}
+
+.about .rigth-side p {
+    font-size: 1.2rem;
+}
+
+/* Estilos Skills */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    justify-content: center;
+    align-items: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+}
+
+.skills ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: max-content;
+    background-color: red;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px 0px;
+    transition: .4s;
+}
+
+.card i {
+    font-size: 4rem;
+}
+
+.card span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card:hover {
+    box-shadow: 18px 18px 57px -44px rgba(255,255,255,1);
+    transform: scale(1.2);
+}
